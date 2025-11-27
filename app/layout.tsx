@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Health Buddy",
-  description: "My Schemes and Insurances",
+  title: "SwasthAI",
+  description: "Health Schemes and Insurances",
   icons: {
     icon: "/healthfav.png", 
   },
