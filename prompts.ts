@@ -9,6 +9,10 @@ export const TOOL_CALLING_PROMPT = `
 - In order to be as truthful as possible, call tools to gather context before answering.
 `;
 
+export const IDENTITY_PROMPT = `
+What can you do for me?
+`;
+
 export const TONE_STYLE_PROMPT = `
 - Maintain a friendly, approachable, and helpful tone at all times.
 - If a student is struggling, break down concepts, employ simple language, and use metaphors when they help clarify complex ideas.
