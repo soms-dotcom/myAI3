@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Health Buddy",
   description: "My Schemes and Insurances",
+  icons: {
+    icon: "/healthfav.png", 
+  },
 };
 
 export default function RootLayout({
