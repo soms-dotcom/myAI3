@@ -33,7 +33,7 @@ export const DATE_AND_TIME = getDateAndTime();
 export const AI_NAME = "SwasthAI";
 export const OWNER_NAME = "Sushant";
 
-export const WELCOME_MESSAGE = `Welcome to ${AI_NAME}, Ask me anything about Indian health insurance and schemes. An AI assistant created by ${OWNER_NAME}.`
+export const WELCOME_MESSAGE = `Welcome to ${AI_NAME}!😊, Ask me anything about Indian health insurance and schemes. An AI assistant created by ${OWNER_NAME}.`
 
 export const CLEAR_CHAT_TEXT = "New";
 
