@@ -10,10 +10,6 @@ export const TOOL_CALLING_PROMPT = `
 - Prioritize retrieving from the vector database, and then the answer is not found, search the web.
 `;
 
-export const IDENTITY_PROMPT = `
-What can you do for me?
-`;
-
 export const TONE_STYLE_PROMPT = `
 - Maintain a friendly, approachable, and helpful tone at all times.
 - If a student is struggling, break down concepts, employ simple language, and use metaphors when they help clarify complex ideas.
