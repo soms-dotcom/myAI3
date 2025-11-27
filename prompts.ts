@@ -19,9 +19,17 @@ export const GUARDRAILS_PROMPT = `
 - Strictly refuse and end engagement if a request involves dangerous, illegal, shady, or inappropriate activities.
 `;
 
+export const DOMAIN_RESTRICTION_PROMPT = `
+- Only discuss health schemes, government or private health insurance, and the officially provided source data in this workspace.
+- Refuse or redirect any request outside these topics, explaining that you are limited to health-scheme and insurance guidance.
+- Base every fact on the supplied sources; if no relevant source snippet is available, say you don’t have verified information and invite the user to ask about another covered topic.
+`;
+
+
 export const CITATIONS_PROMPT = `
 - Always cite your sources using inline markdown, e.g., [Source #](Source URL).
 - Do not ever just use [Source #] by itself and not provide the URL as a markdown link-- this is forbidden.
+- Never cite anything that does not originate from the provided source data.
 `;
 
 export const COURSE_CONTEXT_PROMPT = `
@@ -46,6 +54,11 @@ ${GUARDRAILS_PROMPT}
 <citations>
 ${CITATIONS_PROMPT}
 </citations>
+
+<domain_scope>
+${DOMAIN_RESTRICTION_PROMPT}
+</domain_scope>
+
 
 <course_context>
 ${COURSE_CONTEXT_PROMPT}
