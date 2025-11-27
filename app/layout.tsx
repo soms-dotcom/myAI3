@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "SwasthAI",
   description: "Health Schemes and Insurances",
   icons: {
-    icon: "/healthfav.ico", 
+    icon: "/favicon.ico", 
   },
 };
 
